@@ -130,7 +130,7 @@ namespace GradeBook.GradeBooks
                     finalgrade = 0;
                     break;
             }
-            if (studentType!=StudentType.Standard )
+            if (studentType!=StudentType.Standard && IsWeighted==true )
             {
                 finalgrade++;
             }
